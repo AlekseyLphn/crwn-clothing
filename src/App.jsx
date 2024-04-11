@@ -1,43 +1,7 @@
+import CategoryMenu from './components/category-menu/category-menu.component';
+
 const App = () => {
-  return (
-    <div className='catagories-container'>
-      <div className='catagori-container'>
-        {/* <img src="" alt="" /> */}
-        <div className='category-body-container'>
-          <h2>Hats</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className='catagori-container'>
-        {/* <img src="" alt="" /> */}
-        <div className='category-body-container'>
-          <h2>Jackets</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className='catagori-container'>
-        {/* <img src="" alt="" /> */}
-        <div className='category-body-container'>
-          <h2>Sneakers</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className='catagori-container'>
-        {/* <img src="" alt="" /> */}
-        <div className='category-body-container'>
-          <h2>Womens</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className='catagori-container'>
-        {/* <img src="" alt="" /> */}
-        <div className='category-body-container'>
-          <h2>Mens</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-    </div>
-  );
+  return <CategoryMenu />;
 };
 
 export default App;
